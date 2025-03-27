@@ -17,7 +17,7 @@ export const officialPlugins: PluginConfig[] = [
     name: 'V3 Test Plugin',
     src: generatePluginPath('plugins/src/editors/V3TestPlugin.js'),
     icon: 'extension',
-    default: false,
+    activeByDefault: false,
     kind: 'editor',
     requireDoc: true,
   },
